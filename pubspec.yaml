@@ -1,0 +1,43 @@
+name: flutter_dev_test
+description: "Developer's Flutter test"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  otp: ^3.1.4
+  go_router: ^14.6.1
+  auto_size_text: ^3.0.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.16
+  bot_toast: ^4.1.3
+  gap: ^3.0.1
+  google_fonts: ^6.2.1
+  pinput: ^5.0.0
+  dio: ^5.7.0
+  curl_logger_dio_interceptor: ^1.0.0
+  get_it: ^8.0.2
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+
